@@ -3,8 +3,7 @@ from setuptools import setup, find_packages
 VERSION = '0.1.2'
 DESCRIPTION = 'My first Python package'
 
-with open("README", "r", encoding="UTF-8") as d:
-    long = d.read()
+
 
 # Setting up
 setup(

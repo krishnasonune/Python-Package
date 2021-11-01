@@ -3,9 +3,6 @@
 
 TrackFit helps you to keep track of your calories to reach your goal faster in short time
 
-
-
-
 ## Installation
 
 To install this package
