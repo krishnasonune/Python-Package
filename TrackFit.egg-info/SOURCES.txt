@@ -1,3 +1,4 @@
+README
 setup.py
 TrackFit/__init__.py
 TrackFit/bodyrecomposition.py

@@ -1,26 +1,10 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.7'
+VERSION = '0.1.2'
 DESCRIPTION = 'My first Python package'
-LONG_DESCRIPTION = 'This package will help to calculate calories to achieve your goal faster ' \
-"""
 
-
-        
-            from TrackFit import musclegain
-            
-            from TrackFit import maintenance
-            
-            from TrackFit import bodyrecomposition
-            
-            from TrackFit import fatloss
-
-
-
-
-
-
-"""
+with open("README", "r", encoding="UTF-8") as d:
+    long = d.read()
 
 # Setting up
 setup(
@@ -30,7 +14,7 @@ setup(
     author="krishna sonune",
     author_email="krishnasonune87@gmail.com",
     description=DESCRIPTION,
-    long_description=LONG_DESCRIPTION,
+    long_description=long,
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'first package'],
